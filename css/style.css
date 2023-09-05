@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.bg{
+    background-image: url(../images/clay-banks-u27Rrbs9Dwc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+
+.heading{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.heading h1{
+
+}
+
+.contact_form{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contact_info{
+    width: 48%;
+
+}
+.contact_info h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 30px ;
+
+}
+
+.info_box{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.icon{
+    color: #fff;
+    width: 45px;
+    font-size: 25px;
+
+}
+
+.info{
+    color: #fff;
+
+
+}
+.info h4{
+    font-size: 22px;
+    color: #ffffffd9;
+}
+.info p{
+    margin-top: 10px;
+    color: #fffffff7; 
+}
+
+.main_form{
+    width: 48%;
+}
+
+.form{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10%;
+}
+.form h2{
+    margin-bottom: 30px;
+    color: #000000;
+}
+.form form input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 0 15px 10px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+}
+.form form input[type="submit"] {
+    width: auto;
+    padding: 0;
+    background: #1089ff;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 0 15px 10px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+}
+
+.form form input, .form form input[type="submit"], .form form textarea{
+    font-family: 'Poppins', sans-serif;
+}
+
+.form form input:focus, .form form textarea:focus{
+    outline: none;
+    box-shadow: 0px 1px 3px 1px #00000021; ;
+}
+
